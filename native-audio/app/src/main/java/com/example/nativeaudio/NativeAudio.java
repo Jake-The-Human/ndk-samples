@@ -25,8 +25,6 @@ import android.content.res.AssetManager;
 import android.media.AudioManager;
 import android.os.Build;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.core.app.ActivityCompat;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -36,6 +34,8 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Spinner;
 import android.widget.Toast;
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
 
 public class NativeAudio extends Activity
         implements ActivityCompat.OnRequestPermissionsResultCallback {
